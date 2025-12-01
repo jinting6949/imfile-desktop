@@ -12,4 +12,7 @@
   },
   "author": "",
   "license": "ISC"
+  "publishConfig": {
+  "@jinting6949:registry": "https://npm.pkg.github.com"
+}
 }
