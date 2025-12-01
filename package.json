@@ -11,7 +11,7 @@
     "url": "imfile-desktop"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
   "publishConfig": {
   "@jinting6949:registry": "https://npm.pkg.github.com"
 }
