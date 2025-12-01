@@ -1,18 +1,15 @@
 {
-  "name": "imFile",
+  "name": "imfile",
   "version": "1.1.2",
   "description": "A full-featured download manager",
   "homepage": "https://imfile.io",
-  "author": {
-    "name": "Imfile",
-    "email": "imfileapp@gmail.com"
-  },
+  "author": "Imfile <imfileapp@gmail.com>",
   "copyright": "Copyright© Imfile",
   "license": "MIT",
   "main": "./dist/electron/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/imfile-io/imfile-desktop.git"
+    "url": "git+https://github.com/imfile-io/imfile-desktop.git"
   },
   "scripts": {
     "release": "node .electron-vue/build.js && electron-builder --publish onTagOrDraft",
@@ -116,5 +113,8 @@
     "webpack-hot-middleware": "^2.25.3",
     "webpack-merge": "^5.8.0",
     "worker-loader": "^3.0.8"
+  },
+  "bugs": {
+    "url": "https://github.com/imfile-io/imfile-desktop/issues"
   }
 }
