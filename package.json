@@ -13,6 +13,17 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-  "@jinting6949:registry": "https://npm.pkg.github.com"
+    "@jinting6949:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "scripts": {
+ "build": "webpack"
 }
+  }
 }
